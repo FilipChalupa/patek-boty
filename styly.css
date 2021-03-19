@@ -54,6 +54,8 @@ body {
 	background: linear-gradient(#06d7c1, #50cc49);
 	color: white;
 	position: relative;
+	flex-direction: column;
+	display: flex;
 }
 
 .logo {
@@ -67,11 +69,7 @@ body {
 	position: absolute;
 	bottom: 20px;
 	left: -74px;
-}
-
-.leva {
-	display: flex;
-	flex-direction: column;
+	/*right: -6px;*/
 }
 
 .cenovka {
@@ -79,4 +77,19 @@ body {
 	/*position: absolute;
 	bottom: 30px;
 	right: 30px;*/
+}
+
+.hlavni-nadpis {
+	margin: 0;
+}
+
+.velikosti {
+	display: flex;
+	/*justify-content: space-between;*/
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.velikost__polozka {
+	margin: 13px;
 }
