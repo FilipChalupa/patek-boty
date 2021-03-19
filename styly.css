@@ -35,8 +35,25 @@ body {
 	width: 670px;
 	min-height: 440px;
 	margin: 0 auto;
-	border: 1px solid red;
 	display: flex;
+	/*overflow: hidden;*/
+}
+
+.karticka {
+	border-radius: 9px;
+}
+.leva {
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+
+.leva {
+	background: linear-gradient(#06d7c1, #50cc49);
+	color: white;
+	position: relative;
+	flex-direction: column;
+	display: flex;
+	/*border-radius: 40px;*/
 }
 
 .leva,
@@ -48,14 +65,6 @@ body {
 	padding: calc(1rem * 30px / 16px);*/
 
 	/* width: 335px; */
-}
-
-.leva {
-	background: linear-gradient(#06d7c1, #50cc49);
-	color: white;
-	position: relative;
-	flex-direction: column;
-	display: flex;
 }
 
 .logo {
