@@ -27,3 +27,16 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.karticka {
+	width: 670px;
+	margin: 0 auto;
+	border: 1px solid red;
+	display: flex;
+}
+
+.leva,
+.prava {
+	width: 50%;
+	/* width: 335px; */
+}
