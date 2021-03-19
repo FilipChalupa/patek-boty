@@ -27,9 +27,13 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+body {
+	font-family: sans-serif;
+}
 
 .karticka {
 	width: 670px;
+	min-height: 440px;
 	margin: 0 auto;
 	border: 1px solid red;
 	display: flex;
@@ -38,5 +42,41 @@ body {
 .leva,
 .prava {
 	width: 50%;
+	padding: 30px;
+
+	/*padding: 1.875rem; // 30px
+	padding: calc(1rem * 30px / 16px);*/
+
 	/* width: 335px; */
+}
+
+.leva {
+	background: linear-gradient(#06d7c1, #50cc49);
+	color: white;
+	position: relative;
+}
+
+.logo {
+}
+
+.slogan {
+	flex-grow: 1;
+}
+
+.bota {
+	position: absolute;
+	bottom: 20px;
+	left: -74px;
+}
+
+.leva {
+	display: flex;
+	flex-direction: column;
+}
+
+.cenovka {
+	text-align: right;
+	/*position: absolute;
+	bottom: 30px;
+	right: 30px;*/
 }
